@@ -4,11 +4,11 @@ Whether you use Snort, Suricata, or OSSEC, you can compose rules to report DNS r
 
 ## Important Websites
 
-###Domain Hijacking
+### Domain Hijacking
 https://securitytrails.com/blog/most-popular-types-dns-attacks
 Check a picture for NX Domain Attacks (#! Very Important)
 
-###Report on Passive Analysis
+### Report on Passive Analysis
 https://www.symantec.com/content/dam/symantec/docs/research-papers/exposure-a-passive-dns-analysis-service-to-detect-and-report-malicious-domains-en.pdf
 
 ### Readings on NXDomain Hijacking
