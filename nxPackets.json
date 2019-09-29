@@ -1,0 +1,151 @@
+{
+    "rcode": "name-error",
+    "Query": {
+        "Name": "sjsjdsjdjs.com.",
+        "Type": "A",
+        "Class": "IN"
+    },
+    "Protocol": "UDP",
+    "Dest. Port": 37414,
+    "AuthNameSv": [
+        "a.gtld-servers.net."
+    ],
+    "Warnings": [
+        "None"
+    ]
+}{
+    "rcode": "name-error",
+    "Query": {
+        "Name": "sjsjdsjdjs.com.",
+        "Type": "A",
+        "Class": "IN"
+    },
+    "Protocol": "UDP",
+    "Dest. Port": 37414,
+    "AuthNameSv": [
+        "a.gtld-servers.net."
+    ],
+    "Warnings": [
+        "None"
+    ]
+}{
+    "rcode": "name-error",
+    "Query": {
+        "Name": "walalalala.com.",
+        "Type": "A",
+        "Class": "IN"
+    },
+    "Protocol": "UDP",
+    "Dest. Port": 50760,
+    "AuthNameSv": [
+        "a.gtld-servers.net."
+    ],
+    "Warnings": [
+        "None"
+    ]
+}{
+    "rcode": "name-error",
+    "Query": {
+        "Name": "walalalala.com.",
+        "Type": "A",
+        "Class": "IN"
+    },
+    "Protocol": "UDP",
+    "Dest. Port": 50760,
+    "AuthNameSv": [
+        "a.gtld-servers.net."
+    ],
+    "Warnings": [
+        "None"
+    ]
+}{
+    "rcode": "name-error",
+    "Query": {
+        "Name": "haaaaaaaaaaaaaaaaaaaa.com.",
+        "Type": "A",
+        "Class": "IN"
+    },
+    "Protocol": "UDP",
+    "Dest. Port": 50536,
+    "AuthNameSv": [
+        "a.gtld-servers.net."
+    ],
+    "Warnings": [
+        "None"
+    ]
+}{
+    "rcode": "name-error",
+    "Query": {
+        "Name": "haaaaaaaaaaaaaaaaaaaa.com.",
+        "Type": "A",
+        "Class": "IN"
+    },
+    "Protocol": "UDP",
+    "Dest. Port": 50536,
+    "AuthNameSv": [
+        "a.gtld-servers.net."
+    ],
+    "Warnings": [
+        "None"
+    ]
+}{
+    "rcode": "name-error",
+    "Query": {
+        "Name": "wddlslsdlsdllsd.com.",
+        "Type": "A",
+        "Class": "IN"
+    },
+    "Protocol": "UDP",
+    "Dest. Port": 37490,
+    "AuthNameSv": [
+        "a.gtld-servers.net."
+    ],
+    "Warnings": [
+        "None"
+    ]
+}{
+    "rcode": "name-error",
+    "Query": {
+        "Name": "wddlslsdlsdllsd.com.",
+        "Type": "A",
+        "Class": "IN"
+    },
+    "Protocol": "UDP",
+    "Dest. Port": 37490,
+    "AuthNameSv": [
+        "a.gtld-servers.net."
+    ],
+    "Warnings": [
+        "None"
+    ]
+}{
+    "rcode": "name-error",
+    "Query": {
+        "Name": "sjsjdsjdsjdsjd.com.",
+        "Type": "A",
+        "Class": "IN"
+    },
+    "Protocol": "UDP",
+    "Dest. Port": 51930,
+    "AuthNameSv": [
+        "a.gtld-servers.net."
+    ],
+    "Warnings": [
+        "None"
+    ]
+}{
+    "rcode": "name-error",
+    "Query": {
+        "Name": "sjsjdsjdsjdsjd.com.",
+        "Type": "A",
+        "Class": "IN"
+    },
+    "Protocol": "UDP",
+    "Dest. Port": 51930,
+    "AuthNameSv": [
+        "a.gtld-servers.net."
+    ],
+    "Warnings": [
+        "None"
+    ]
+}
