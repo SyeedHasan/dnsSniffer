@@ -1,11 +1,24 @@
 # EBRYX ASSESSMENT PART -- 2
+# Please check the file with this assessment for the explanation and hijacking explanation
 
 # title           : sniffDNS.py
 # description     : Script to sniff DNS packets for NXDomains
 # author          : Syed Hasan
 # date            : Sept 27 2019
 # usage           : sudo python3 sniffDNS.py
-# python_version  :3.X
+# python_version  : 3.X
+
+# Information     :
+
+# The program is designed such that the sniff function continues until stopped explicitly
+# OR 500 PACKETS ARE OBTAINED. YOU CAN REMOVE THE LIMIT FROM THE SNIFF FUNCTION BY
+# REMOVING THE COUNT ARGUMENT 
+# If you wish to stop the running the program, please quite it using CTRL+C
+
+# The program outputs all QUERIES, RESPONSEs, AND NX DOMAIN RESPONSES to the STDOUT
+# It  appends the NX DOMAIN responses to the JSON file only
+# If you wish to view all traffic, check the PCAP file attached
+
 # ==============================================================================
 
 # Library imports
@@ -49,6 +62,7 @@ def sniffPkts():
 
         # DNS Reuqest - Query or Response
         dnsReq = pkt.getlayer(DNS)
+
         # It's a DNS query!
         if dnsReq.qr == 0:
             print("Query: ", pkt.summary())
@@ -122,7 +136,7 @@ def sniffPkts():
             # Indicates a normal DNS query or response
             print(pkt.summary())
 
-        #! Save packet to PCAP file
+        # Save packet to PCAP file
         dnsTraffic.write(pkt)
 
     try:     
@@ -130,7 +144,7 @@ def sniffPkts():
         # New session for each time you run the program...
         dnsTraffic = PcapWriter("all-dns-traffic.pcap", sync=True) #append=True for append
         
-        sniff(filter="port 53", count=50, prn=dissectPkts)
+        sniff(filter="port 53", count=500, prn=dissectPkts)
 
     except PermissionError:
         print("Unfortunately, you need SUDO priviliges or ROOT user priviliges to run the program.")
