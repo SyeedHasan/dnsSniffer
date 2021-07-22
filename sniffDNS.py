@@ -1,6 +1,3 @@
-# EBRYX ASSESSMENT PART -- 2
-# Please check the file with this assessment for the explanation and hijacking explanation
-
 # title           : sniffDNS.py
 # description     : Script to sniff DNS packets for NXDomains
 # author          : Syed Hasan
